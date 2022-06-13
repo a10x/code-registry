@@ -1,0 +1,25 @@
+.createContainer {
+  margin-left: 32.7%;
+  margin-top: 20px;
+}
+
+.createButton {
+  background-color: #f6f7f8;
+  padding: 10px;
+  padding-left: 15px;
+  width: 633px;
+  color: grey;
+  text-align: left;
+  cursor: text;
+  border: 1px solid #dad8d8;
+}
+
+.createButton:hover {
+  border: 1px solid #e0e0e0;
+  background-color: rgb(206, 203, 203);
+}
+
+.createButton:focus {
+  outline: none;
+  border: 1px solid #e0e0e0;
+}
