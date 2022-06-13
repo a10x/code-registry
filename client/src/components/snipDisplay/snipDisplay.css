@@ -1,0 +1,54 @@
+.container {
+  display: grid;
+  grid-template-columns: 70px auto;
+  width: 650px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 3px;
+  padding-top: 5px;
+  background-color: white;
+}
+
+.container:hover {
+  background-color: lightgrey;
+}
+
+.left {
+  border-right: 3px solid rgb(110, 110, 110);
+  margin-right: 5px;
+  padding-right: 5px;
+  text-align: center;
+}
+
+.right {
+  margin-left: 5px;
+}
+
+.content .title {
+  font-weight: 500;
+  font-size: 19px;
+}
+
+.content .description {
+  font-size: 15px;
+}
+
+.imageContainer {
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+
+.credit {
+  margin-bottom: 5px;
+  display: grid;
+  grid-template-columns: 35px auto;
+  color: gray;
+}
+
+.credit .username {
+  padding-top: 5px;
+  margin-right: 20px;
+  font-size: 13px;
+}

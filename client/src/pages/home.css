@@ -1,0 +1,15 @@
+body {
+  background-color: #dae0e6;
+}
+
+.snipContainer {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.snipItem {
+  margin-top: 10px;
+  background-color: rgb(236, 234, 234);
+}

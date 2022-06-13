@@ -1,0 +1,16 @@
+.snipsContainer {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.snipItem {
+  margin-top: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.snipItem:hover {
+  background-color: rgb(158, 156, 156);
+}
